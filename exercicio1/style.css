@@ -8,6 +8,10 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  justify-content: center; /* deixou os quadradinhos no meio, mas na parte de cima */
+  align-items: center; /* alinhou verticlamente no meio da tela */
+  flex-direction: column; /* organizou em colunas */
+  gap: 6em; /* colocou um espaço entre os quadradinhos */
 }
 
 .item {
